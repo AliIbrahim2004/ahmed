@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع أعمال</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#gallery">معرض الصور</a></li>
+                <li><a href="#contact">التواصل</a></li>
+                <li><a href="#upload">رفع صورة</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home">
+        <h1>مرحبًا بك في موقعنا</h1>
+        <p>هنا يمكنك استعراض أعمالنا والتواصل معنا بسهولة.</p>
+        <video controls autoplay loop>
+            <source src="img/1.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- معرض الصور -->
+    <section id="gallery">
+        <h2>معرض الصور</h2>
+        <div class="gallery-container">
+            <img src="img/2.jpg" alt="صورة 1">
+            <img src="img/3.jpg" alt="صورة 2">
+            <img src="img/4.jpg" alt="صورة 3">
+            <img src="img/16.jpg" alt="صورة 3">
+            <img src="img/6.jpg" alt="صورة 3">
+            <img src="img/7.jpg" alt="صورة 3">
+            <img src="img/8.jpg" alt="صورة 3">
+            <img src="img/5.jpg" alt="صورة 3">
+            <img src="img/15.jpg" alt="صورة 3">
+            <img src="img/20.jpg" alt="صورة 3">
+            <img src="img/14.jpg" alt="صورة 3">
+            <img src="img/18.jpg" alt="صورة 3">
+            <img src="img/21.jpg" alt="صورة 3">
+            <img src="img/10.jpg" alt="صورة 3">
+            <img src="img/12.jpg" alt="صورة 3">
+            <img src="img/WhatsApp Image 2024-12-09 at 14.00.12_bd547e8f.jpg" alt="صورة 3">
+            <img src="img/17.jpg" alt="صورة 3">
+            <img src="img/19.jpg" alt="صورة 3">
+            <img src="img/22.jpg" alt="صورة 3">
+            <img src="img/23.jpg" alt="صورة 3">
+            <img src="img/24.jpg" alt="صورة 3">
+            <img src="img/12.jpg" alt="صورة 3">
+            <img src="img/9.jpg" alt="صورة 3">
+            <img src="img/6.jpg" alt="صورة 3">
+            
+      
+           
+        </div>
+    </section>
+
+    <!-- التواصل -->
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <a href="https://wa.me/message/LOM66TJL3C2FH1" class="whatsapp-button">
+            <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+        </a>
+    </section>
+
+    <!-- رفع الصور -->
+    <section id="upload">
+        <h2>رفع صورة</h2>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="file">اختر الصورة:</label>
+            <input type="file" name="file" id="file">
+            <button type="submit">رفع</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© جميع الحقوق محفوظة 2024</p>
+    </footer>
+</body>
+</html>
